@@ -1,2 +1,8 @@
-const myHeading=document.querySelector("h2");
-myHeading.textContent="Hello World";
+let myUser=document.querySelector('h1#left');
+myUser.textContent="Guest";
+myUser.onclick=()=>{
+    let a=prompt("Type your name:");
+    if (a){
+        myUser.textContent=a;
+    }
+};
