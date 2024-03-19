@@ -1,4 +1,16 @@
-body {
+html {
     background-color:rgba(0,0,0,0.9);
     color:white;
+}
+
+body {
+    padding:1% ;
+    
+}
+h1,h2 {
+    display:inline-block;
+    margin: 0 5% 0 0;
+    
+    /* border: 2px white dashed; */
+    
 }
