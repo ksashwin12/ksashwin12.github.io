@@ -1,6 +1,9 @@
 var myUser=document.querySelector('h1#left');
 function setUserName(){
-    const user=prompt("Enter your name:");
+    var user=prompt("Enter your name:");
+    while (!user){
+        user=prompt("Enter a valid name:")
+    }
     localStorage.setItem("name",user);
     myUser.textContent=user
 };
