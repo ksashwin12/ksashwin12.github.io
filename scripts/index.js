@@ -7,10 +7,8 @@ function setUserName(){
     else{
         localStorage.setItem("name",user);
         myUser.textContent=user;
-    };
-   
+    }; 
 };
-
 if (localStorage.getItem("name")){
     myUser.textContent=localStorage.getItem("name");
 };
