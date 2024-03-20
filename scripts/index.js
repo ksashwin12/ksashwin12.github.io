@@ -1,8 +1,15 @@
-let myUser=document.querySelector('h1#left');
-myUser.textContent="Guest";
-myUser.onclick=()=>{
-    let a=prompt("Type your name:");
-    if (a){
-        myUser.textContent=a;
-    }
+var myUser=document.querySelector('h1#left');
+function setUserName(){
+    const user=prompt("Enter your name:");
+    localStorage.setItem("name",user);
+    myUser.textContent=user
 };
+
+if (localStorage.getItem("name")){
+    myUser.textContent=localStorage.getItem("name")
+}
+
+myUser.onclick=()=>{
+    setUserName()
+}
+
