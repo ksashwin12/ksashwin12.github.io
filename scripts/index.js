@@ -1,13 +1,14 @@
 const myUser=document.querySelector('h1#left');
 function setUserName(){
-    var user=prompt("Enter your name:");
-    if (!user){
+    const user=prompt("Enter your name:");
+    if (!user.trim()){
         setUserName();
     }
     else{
         localStorage.setItem("name",user);
         myUser.textContent=user;
-    };   
+    };
+   
 };
 
 if (localStorage.getItem("name")){
@@ -17,4 +18,5 @@ if (localStorage.getItem("name")){
 myUser.onclick=()=>{
     setUserName();
 };
+
 
