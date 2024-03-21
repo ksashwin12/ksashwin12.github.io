@@ -16,5 +16,3 @@ if (localStorage.getItem("name")){
 myUser.onclick=()=>{
     setUserName();
 };
-
-
