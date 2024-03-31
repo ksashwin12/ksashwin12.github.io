@@ -9,7 +9,7 @@ body {
 }
 nav li {
     display:inline-block;
-    padding: 0 12%;
+    padding: 0 11%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size:200%;    
@@ -32,6 +32,20 @@ h1#left {
     margin: auto;
 
 }
+article::before {
+    content:"";
+    background-color: white;
+    display: block;
+    width: auto;
+    height: 2px;
+}
+article::after {
+    content:"---- The End ---";
+    display:inline-block;
+    width:100%;
+    text-align: center;
+}
+
 video {
     display: block;
     margin: auto;
