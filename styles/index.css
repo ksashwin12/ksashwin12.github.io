@@ -1,36 +1,42 @@
-html {
+:root {
     background-color:rgba(0,0,0,0.9);
     color:white;
 }
 
 body {
-    padding:1% ;
+    padding:0.5% ;
     
 }
 nav li {
     display:inline-block;
-    padding: 0 11%;
+    width:32%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size:200%;    
+    font-size:200%;  
+    text-align: center;  
 }
+
 nav li:hover {
     background-color: gray;
-    transform:scale(1.5,1.5);
+    transform:scale(130%);
 }
+
+
 li {
     list-style-image:radial-gradient(blue 40%,red 20%,yellow 40%);
 }
+
 h1{
     font-family:Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin:0 70% 0 0;
+    width:50%;
+    text-align: left;
 }
 h1#left {
     font-family:Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin: auto;
-
+    width:40%;
+    text-align:right;
 }
 article::before {
     content:"";
