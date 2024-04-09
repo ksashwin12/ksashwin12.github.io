@@ -17,18 +17,7 @@ h1 {
     text-align:right;
     cursor:pointer;
 }
-button {
-    background-color: rgba(83, 55, 55, 0.9);
-    width:10%;
-    border-radius: 53em;
-    align-items: center;
-    font-family: fantasy;
-    font-size: 200%;
-    color:white;
-    box-shadow: 0.2em 0.2em 2em white;
-    text-transform: uppercase;
-    cursor:pointer;
-}
+
 nav li {
     display:inline-block;
     width:32%;
@@ -37,11 +26,3 @@ nav li {
     font-size:200%;  
     text-align: center; 
 }
-/* body {
-    background-image:linear-gradient(150deg, blue 10%,yellow 40%,red 40%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
-    
-} */
