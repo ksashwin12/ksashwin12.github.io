@@ -16,11 +16,6 @@ h1 {
 .right {
     text-align: right;
 }
-#un {
-    width:40%;
-    text-align:right;
-    cursor:pointer;
-}
 
 nav li {
     display:inline-block;
