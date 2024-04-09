@@ -9,8 +9,12 @@ a {
 }
 h1 {
     display:inline-block;
-    width:40%;
+    width:45%;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.right {
+    text-align: right;
 }
 #un {
     width:40%;
