@@ -44,8 +44,8 @@ header span {
     text-align: left;
     padding: 0.7%;
 }
-.right {
-    margin-left:auto;
+.left {
+    margin-right:auto;
 }
 
 article::before {
