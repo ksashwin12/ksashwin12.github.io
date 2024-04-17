@@ -1,4 +1,4 @@
-:root {
+html {
     background-color:rgba(0,0,0,0.9);
     color:white;
     border-radius:5%;
@@ -77,6 +77,12 @@ p {
 
 footer {
     background-color: rgba(0,0,0,0.6);
-    display: block;
-    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer blockquote,p {
+    flex:1 1 auto;
 }
