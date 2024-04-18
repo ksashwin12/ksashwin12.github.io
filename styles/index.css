@@ -35,15 +35,16 @@ nav li:hover {
     background-color: gray;
     transform:scale(130%);
 }
-header {
+header ul {
     display: flex;
 }
-header span {
+header ul li {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 250%;
     text-align: left;
     padding: 0.7%;
+    list-style-type: none;
 }
 .left {
     margin-right:auto;
