@@ -27,6 +27,7 @@ nav li {
     font-size:200%;  
     text-align: center; 
     flex: 1 1 auto;
+    border-radius: 100%;
  
 }
 
@@ -46,6 +47,9 @@ header span {
 }
 .left {
     margin-right:auto;
+}
+span[title="Click to change the username."]:hover {
+    text-decoration: underline;
 }
 
 article::before {
